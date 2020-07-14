@@ -21,7 +21,7 @@ public class EmployeeImpl implements EmployeeDao {
 
 
 	/*
-	 * DELIMITER $$ CREATE PROCEDURE getEmployeeDetails() BEGIN INSERT INTO
+	 * DELIMITER $$ CREATE PROCEDURE addEmployee() BEGIN INSERT INTO
 	 * `employee`( `name`, `address`, `email`) VALUES (in_name,in_address,in_email);
 	 * 
 	 * SELECT max(empid) INTO out_emp FROM employee;
